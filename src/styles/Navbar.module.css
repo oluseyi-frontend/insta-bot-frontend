@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: transparent;
+    justify-content: space-between;
+position: absolute;
+background-color: #181818;
+}
+
+.navbar_content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.links{
+display: flex;
+
+}
+
+.links a {
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.logo a img {
+    height: 50px !important;
+}
+
+
+@media(max-width: 780px){
+    .links{
+        display: none;
+    }
+}
