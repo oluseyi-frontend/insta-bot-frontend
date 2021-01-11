@@ -59,7 +59,7 @@ const BotService1 = () => {
     setOpen(true);
 
     axios
-      .post("https://kay-insta-bot.herokuapp.com/login", {
+      .post("https://kay-insta-bot.herokuapp.com/login/", {
         user: username,
         password: password,
         accountToParse: accountToParse,

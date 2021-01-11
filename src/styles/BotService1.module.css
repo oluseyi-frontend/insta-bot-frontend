@@ -1,6 +1,7 @@
 .bot_service{
     display: flex;
-    height: 100vh;
+    margin-top: 5vh;
+    
 }
 .image_wrapper {
     width: 100%;
@@ -25,6 +26,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
+    padding-bottom: 2rem;
 }
 .form_wrapper form {
   display: flex;
